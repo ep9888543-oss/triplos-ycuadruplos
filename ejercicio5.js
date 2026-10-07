@@ -1,0 +1,12 @@
+// Expresión: z = (x + y / o) * r + ((a * b + k) / (c + d));
+let x = 1, y = 4, o = 2, r = 3, a = 2, b = 2, k = 1, c = 1, d = 2;
+let t1 = y / o;
+let t2 = x + t1;
+let t3 = a * b;
+let t4 = t3 + k;
+let t5 = c + d;
+let t6 = t4 / t5;
+let t7 = t2 * r;
+let t8 = t7 + t6;
+let z = t8;
+console.log("z =", z);

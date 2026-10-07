@@ -1,0 +1,10 @@
+// Expresión: val = a * (b + (c / d)) - e * (f + g);
+let a = 2, b = 3, c = 4, d = 2, e = 1, f = 2, g = 3;
+let t1 = c / d;
+let t2 = b + t1;
+let t3 = f + g;
+let t4 = a * t2;
+let t5 = e * t3;
+let t6 = t4 - t5;
+let val = t6;
+console.log("val =", val);

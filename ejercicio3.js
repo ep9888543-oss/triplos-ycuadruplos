@@ -1,0 +1,10 @@
+// Expresión: total = (a + b * c) * (d - e) - (f + g);
+let a = 1, b = 2, c = 3, d = 5, e = 2, f = 1, g = 1;
+let t1 = b * c;
+let t2 = a + t1;
+let t3 = d - e;
+let t4 = f + g;
+let t5 = t2 * t3;
+let t6 = t5 - t4;
+let total = t6;
+console.log("total =", total);
